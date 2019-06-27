@@ -32,7 +32,7 @@ print("D")
 - B
 - C
 - D
-
+Answer =  A,C,D
 ***
 ## Question 2
 
@@ -56,6 +56,7 @@ switch appInfo {
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
 
+Answer= myCoolApp hasnt released yet
 ***
 ## Question 3
 
@@ -80,6 +81,7 @@ default:
 - C
 - D
 
+Answer= D
 ***
 ## Question 4
 
@@ -103,6 +105,7 @@ case "snickers":
 - No default case in the switch statement
 - No print statement right outside the switch statement
 
+Answer= No default case in the switch statement
 ***
 ## Question 5
 
@@ -112,6 +115,19 @@ Given the current weather conditions (rain, sunny, snow), use a switch statement
 let currentWeather = "rain"
 
 // enter code below
+
+let currentWeather = "rain"
+
+switch currentWeather {
+case "rain":
+print("bring your umbrella")
+case "sunny":
+print("bring sunglasses")
+case "snow":
+print("bring your snowboots")
+default:
+print("idk")
+}
 ```
 
 ***
@@ -126,4 +142,11 @@ let lastName = "Appleseed"
 // enter code below
 ```
 
+
+let firstName = "John"
+let lastName = "Appleseed"
+
+var fullName = "\(firstName)  \(lastName)"
+print ("The Fellow's full name is \(fullName)")
+3
 ***
