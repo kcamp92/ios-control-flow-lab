@@ -148,5 +148,5 @@ let lastName = "Appleseed"
 
 var fullName = "\(firstName)  \(lastName)"
 print ("The Fellow's full name is \(fullName)")
-3
+
 ***
